@@ -10,6 +10,10 @@ namespace CegApp
     {
         static void Main(string[] args)
         {
+            Alkalmazott alkalmazott1 = new Alkalmazott("Kovács János",400000);
+            Menedzser menedzser1 = new Menedzser("Nagy Anna", 600000, 200000);
+            Console.WriteLine(alkalmazott1);
+            Console.WriteLine(menedzser1);
         }
     }
 }

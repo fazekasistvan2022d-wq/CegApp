@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CegApp
 {
-    internal class Alkalmazott
+    public class Alkalmazott
     {
         public string Nev { get; set; }
         protected int Alapber { get; set; }
